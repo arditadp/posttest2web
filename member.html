@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Daftar</title>
+    <link rel="stylesheet" href="member.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- join -->
+    <div class="container">
+        <div class="member">
+            <form id="userform">
+                <center><h3>JOIN MEMBER</h3></center>
+                <div class="user-details">
+                    <div class="input-inbox">
+                        <span class="detail">Nama Lengkap</span>
+                        <input id="daf_lengkap" type="text" placeholder="Masukkan Nama Lengkap" required>
+                    </div>
+                    <div class="input-inbox">
+                        <span class="detail">Email</span>
+                        <input id="daf_email" type="text" placeholder="Masukkan Email" required>
+                    </div>
+                    <div class="input-inbox">
+                        <span class="detail">Nomor Telepon</span>
+                        <input id="daf_nomor" type="text" placeholder="Masukkan Nomor Telepon" required>
+                    </div>
+                </div>
+                <div class="gender-details">
+                    <input type="radio" name="gender" id="dot-1" value="Pria">
+                    <input type="radio" name="gender" id="dot-2" value="Wanita">
+                    <input type="radio" name="gender" id="dot-3" value="Lainnya">
+                    <span class="gender-title">Jenis Kelamin</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Pria</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Wanita</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">Lainnya</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <span class="box">
+                        Ingin mencari pasangan?
+                    </span>
+                    <select id="cari" class="select" name="pasangan" required>
+                        <option>Wanita</option>
+                        <option>Pria</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <span>
+                        Kriteria pasangan
+                    </span>
+                    <div>
+                        <input class="checkbox" type="checkbox" id="gl" value="Good Looking">
+                        <label class="check" for="GoodLooking">Good Looking</label>
+                    </div>
+                    <div>
+                        <input class="checkbox" type="checkbox" id="wi" value="Wangi">
+                        <label class="check" for="Wangi">Wangi</label>
+                    </div>
+                    <div>
+                        <input class="checkbox" type="checkbox" id="ke" value="Kerja">
+                        <label class="check" for="Kerja">Kerja</label>
+                    </div>
+                    <div>
+                        <input class="checkbox" type="checkbox" id="ma" value="Mahasiswa/Sekolah">
+                        <label class="check" for="Mahasiswa/Sekolah">Mahasiswa/Sekolah</label>
+                    </div>
+                    <div>
+                        <input class="checkbox" type="checkbox" id="jd" value="Duda/Janda">
+                        <label class="check" for="Duda/Janda">Duda/Janda</label>
+                    </div>
+                    <div>
+                        <input class="checkbox" type="checkbox" id="kaya" value="Anak Tunggal Kaya Raya">
+                        <label class="check" for="ATKR">Anak Tunggal Kaya Raya</label>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Daftar">
+                </div>
+            </form>
+            <br>
+            <p>Kembali ke Beranda?<a href="beranda.html">Beranda</a></p>
+        </div>
+    </div>
+</body>
+<script src="js/beranda.js"></script>
+<script src="js/member.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>AOS.init();</script>
+</html>

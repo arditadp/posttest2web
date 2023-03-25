@@ -1,0 +1,163 @@
+section{
+    display: flex;
+    margin-bottom: 50px;
+    padding: 25px 45px 0px 50px;
+}
+
+.kolom{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+#ngobrol{
+    padding-bottom: 20px;
+    padding-top: 45px;
+    padding-left: 20px;
+}
+
+.kolom h1{
+    font-size: 50px;
+    color: #000;
+    padding-bottom: 20px;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+.kolom p{
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+/*--- navbar dan footer --- */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    background: rgb(192, 74, 130);
+    background-position: center;
+    background-size: cover;
+    height: 15Svh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(192, 74, 130); 
+}
+
+.bahasa{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+
+}
+
+.bhs{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-top: 13px;
+    color:#000;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+footer{
+    background: rgb(192, 74, 130);
+}
+
+footer .footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    left: 40px;
+}
+
+.footer-section{
+    width: 30%;
+    margin: 70px auto;
+
+}
+
+.luar{
+width: 1100px;
+margin: auto;
+position: relative;
+}
+
+footer h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: rgb(253, 211, 106);
+}
+
+footer p{
+    color: #fff;
+}
+
+#copyright{
+    text-align: right;
+    width: 100%;
+    padding-bottom: 20px;
+    color: #fff;
+}
